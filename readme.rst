@@ -392,3 +392,30 @@ And some arguments can have default values.
     15
     >>> increment(10, amount=2)
     12
+
+Built-in Functions
+^^^^^^^^^^^^^^^^^^
+
+Python provides some useful built-in functions.
+
+.. code-block:: python
+
+    >>> min(12, 3)
+    3
+    >>> max(23, 34)
+    34
+
+The built-in function ``len`` computes length of a string.
+
+.. code-block:: python
+
+    >>> len("swahilibox python")
+    17
+
+The built-in function ``int`` converts string to ingeter and built-in function
+``str`` converts integers and other type of objects to strings.
+
+    >>> int("2323")
+    2323
+    >>> str(2323)
+    "2323"
