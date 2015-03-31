@@ -419,3 +419,27 @@ The built-in function ``int`` converts string to ingeter and built-in function
     2323
     >>> str(2323)
     "2323"
+
+Methods
+^^^^^^^
+
+Methods are special kind of functions that work on an object.
+
+For example, ``upper`` is a method available on string objects.
+
+.. code-block:: python
+
+    >>> x = "swahilibox"
+    >>> print x.upper()
+    SWAHILIBOX
+
+As already mentioned, methods are also functions. They can be assigned to other
+variables can be called separately.
+
+.. code-block:: python
+
+    >>> f = x.upper
+    >>> print f()
+    SWAHILIBOX
+
+
