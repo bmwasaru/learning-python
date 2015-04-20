@@ -415,6 +415,8 @@ The built-in function ``len`` computes length of a string.
 The built-in function ``int`` converts string to ingeter and built-in function
 ``str`` converts integers and other type of objects to strings.
 
+.. code-block:: python
+
     >>> int("2323")
     2323
     >>> str(2323)
