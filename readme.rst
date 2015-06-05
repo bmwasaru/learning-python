@@ -11,7 +11,7 @@ prompt and waits for your commands.
 .. code-block:: python
 
     $ python
-    Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
+    Python 3.4.0 (default, Apr 11 2014, 13:05:11)  
     [GCC 4.8.2] on linux2
     Type "help", "copyright", "credits" or "license" for more information.
     >>> 
@@ -33,7 +33,7 @@ Open your favourite text editor, type the following text and save file as ``hell
 
 .. code-block:: python
 
-    print "Hello, world!"
+    print("Hello, world!")
 
 And run this program by calling ``python hello.py``. Make sure you change the directory to the directory where you save the file
 
@@ -50,7 +50,7 @@ Text after ``#`` character in any line is considered as comment.
     # This is helloworld program
     # run this as:
     #    python hello.py
-    print "Hello, world!"
+    print("Hello, world!")
 
 Assignments
 -----------
@@ -204,7 +204,7 @@ Strings are a sequence of characters, enclosed in single quotes or double quotes
 
     >>> x = "swahilibox"
     >>> y = 'python'
-    >>> print x, y
+    >>> print(x, y)
     swahilibox python
 
 There is difference between single quotes and double quotes, they can used interchangebly.
@@ -216,13 +216,13 @@ Multi-line strings can be written using three single quotes or three double quot
     x = """This is a multi-line string
     written in
     three lines."""
-    print x
+    print(x)
 
     y = '''multi-line strings can be written
     using three single quote characters as well.
     The string can contain 'single quotes' or "double quotes"
     in side it.'''
-    print y
+    print(y)
 
 Functions
 ---------
@@ -290,7 +290,7 @@ Lets look at an example.
         y = x + 1
         return y
     incr(5)
-    print x, y
+    print(x, y)
 
 Variables assigned in a function, including the arguments are called the local
 variables to the function. The variables defined in the top-level are called
@@ -322,16 +322,16 @@ However, you have to explicitly declare a variable as ``global`` to modify it.
 
 .. code-block:: python
 
-    print square(5)
-    print square(2*5)
+    print(square(5))
+    print(square(2*5))
 
 .. code-block:: python
 
 	x = 1
 	def f():
             return x
-	print x
-	print f()
+	print(x)
+	print(f())
 
 .. code-block:: python
 
@@ -339,9 +339,9 @@ However, you have to explicitly declare a variable as ``global`` to modify it.
 	def f():
             x = 2
             return x
-	print x
-	print f()
-	print x
+	print(x)
+	print(f())
+	print(x)
 
 .. code-block:: python
 
@@ -350,9 +350,9 @@ However, you have to explicitly declare a variable as ``global`` to modify it.
 		y = x
 		x = 2
 		return x + y
-	print x
-	print f()
-	print x
+	print(x)
+	print(f())
+	print(x)
 
 .. code-block:: python
 
@@ -361,7 +361,7 @@ However, you have to explicitly declare a variable as ``global`` to modify it.
         x = a * a
         return x
     y = f(3)
-    print x, y
+    print(x, y)
 
 Functions can be called with keyword arguments.
 
@@ -432,7 +432,7 @@ For example, ``upper`` is a method available on string objects.
 .. code-block:: python
 
     >>> x = "swahilibox"
-    >>> print x.upper()
+    >>> print(x.upper())
     SWAHILIBOX
 
 As already mentioned, methods are also functions. They can be assigned to other
@@ -441,7 +441,7 @@ variables can be called separately.
 .. code-block:: python
 
     >>> f = x.upper
-    >>> print f()
+    >>> print(f())
     SWAHILIBOX
 
 
