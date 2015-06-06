@@ -453,6 +453,7 @@ if statements
 In python if statement is the main statement used for selecting from alternative actions based on test results
 
 .. code-block:: python
+
     >>> names = ["Britone", "Angela", "Maria", "Brian"]
     >>> if "Maria" in names:
     ...     print("Britone is present")
@@ -467,6 +468,7 @@ for loop
 for statement, is designed for stepping through the items in a sequence or other iterable object and running a block of code for each.
 
 .. code-block:: python
+
     >>> names = ["Britone", "Angela", "Maria", "Brian"]
     >>> for name in names:
     ...     print(name)
@@ -482,6 +484,7 @@ while loop
 while statement repeatedly executes a block of statements as long as a test at the top keeps evaluating to a true value.
 
 .. code-block:: python
+
     >>> while True:
     ...     print("Press Ctrl+C to stop me!")
     Press Ctrl+C to stop me!
@@ -491,3 +494,4 @@ while statement repeatedly executes a block of statements as long as a test at t
     Press Ctrl+C to stop me!
     Press Ctrl+C to stop me!
     Press Ctrl+C to stop me!
+    
