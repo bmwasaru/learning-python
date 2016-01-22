@@ -456,7 +456,7 @@ In python if statement is the main statement used for selecting from alternative
 
     >>> names = ["Britone", "Angela", "Maria", "Brian"]
     >>> if "Maria" in names:
-    ...     print("Britone is present")
+    ...     print("Maria is present")
     >>> if "Aliya" in names:
     ...     print("Aliya is in the house :)")
     ... else:
